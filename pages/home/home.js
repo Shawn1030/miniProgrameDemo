@@ -5,9 +5,24 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    message:'今天天气不错',
+    students:[
+      {id: 1,name:'shawn',age:20},
+      {id: 2,name:'Tom',age:21},
+      {id: 3,name:'Jack',age:22}
+    ],
+    counter:0
   },
-
+  increment(){
+    this.setData({
+      counter:this.data.counter+1
+    })
+  },
+  decrement(){
+    this.setData({
+      counter:this.data.counter-1
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

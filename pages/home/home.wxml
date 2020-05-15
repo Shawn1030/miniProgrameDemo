@@ -1,2 +1,9 @@
 <!--pages/home/home.wxml-->
-<text class="title">涛哥最帅</text>
+<text class="title">{{message}}</text>
+
+
+
+<view> {{counter}}</view>
+<button size="mini" bindtap='increment'>+</button>
+<button size="mini" bindtap='decrement'>-</button>
+
