@@ -1,0 +1,7 @@
+<!--pages/button/button.wxml-->
+<button>按钮</button>
+<button size="mini">按钮</button>
+<button size="mini">按钮</button>
+<button loading>按钮</button>
+<button hover-class="pressed">按钮</button>
+

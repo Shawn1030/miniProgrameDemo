@@ -1,0 +1,3 @@
+<!--pages/view/view.wxml-->
+
+<view class="box3" hover-class='box3-pressed'> <view class="box1" hover-class='box1-pressed' hover-stop-propagation >box1</view></view>

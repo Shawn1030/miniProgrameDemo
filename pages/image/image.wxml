@@ -1,0 +1,7 @@
+<!--pages/image/image.wxml-->
+
+
+
+<!-- <image bindload='imageLoad' wx:for="{{20}}" lazy-load src="https://img3.doubanio.com/view/group_topic/l/public/p236980931.webp"/> -->
+<button bindtap="selectImg">选择图片</button>
+<image src="{{imgSrc}}"/>

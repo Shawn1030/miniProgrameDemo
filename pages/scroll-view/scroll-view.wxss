@@ -1,0 +1,23 @@
+/* pages/scroll-view/scroll-view.wxss */
+.container {
+  white-space: nowrap;
+}
+.view {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  background-color: paleturquoise;
+  
+}
+.container2 {
+  height: 300px;
+  background-color: firebrick;
+  overflow: hidden;
+}
+.view2 {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  background-color: deeppink;
+}
