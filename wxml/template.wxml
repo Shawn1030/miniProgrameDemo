@@ -1,0 +1,6 @@
+<template name="demo">
+  <button size="mini">{{btnText}}</button>
+  <view>{{viewText}}</view>
+</template>
+
+<view>哈哈哈</view>

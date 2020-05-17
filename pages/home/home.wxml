@@ -1,2 +1,7 @@
-<!--pages/home/home.wxml-->
-<text class="title">涛哥最帅</text>
+
+<view class="outer" bindtap="outerClick" capture-bind:tap="outerCapture">
+  <view class="middle" bind:tap="middleClick" capture-bind:tap="middleCapture">
+    <view class="inner"  mut-bind:tap="innerClick" capture-bind:tap="innerCapture"></view>
+  </view>
+</view>
+

@@ -1,4 +1,17 @@
-/* pages/home/home.wxss */
-.title {
-  color: red;
+.inner {
+  width: 150px;
+  height: 150px;
+  background-color: rebeccapurple;
+}
+
+.middle {
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+}
+
+.outer {
+  width: 250px;
+  height: 250px;
+  background-color: yellow;
 }
