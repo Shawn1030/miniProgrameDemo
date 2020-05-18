@@ -1,2 +1,6 @@
 <!--pages/home/home.wxml-->
-<text class="title">涛哥最帅</text>
+<button bind:tap='showToast' size="mini">showToast</button>
+<button bind:tap='showModal' size="mini">showModal</button>
+<button bind:tap='showLoading' size="mini">showLoading</button>
+<button bind:tap='showActionSheet' size="mini">showActionSheet</button>
+<button size="mini" open-type="share">分享</button>

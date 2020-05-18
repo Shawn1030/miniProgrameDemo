@@ -61,6 +61,41 @@ Page({
    * 用户点击右上角分享
    */
   onShareAppMessage: function () {
-
+    
+  },
+  showToast(){
+    wx.showToast({
+      title: '你好啊',
+      icon:'loading'
+    })
+    
+  },
+  showModal(){
+    wx.showModal({
+      cancelColor: 'cancelColor',
+      content:'哈哈啊'
+    })
+  },
+  showLoading(){
+    wx.showLoading({
+      title: '你好啊',
+    })
+  },
+  showActionSheet(){
+    wx.showActionSheet({
+      itemList: ['相册','图片'],
+      success:function(res){
+        switch (res.tapIndex) {
+          case 0:
+            console.log('相册');
+            break;
+          case 1:
+            console.log('图片');
+            break;
+        }
+        
+      }
+    })
   }
+
 })
