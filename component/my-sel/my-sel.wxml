@@ -1,0 +1,2 @@
+<!--component/my-sel/my-sel.wxml-->
+<text>{{counter}}</text>

@@ -1,0 +1,3 @@
+<!--component/my-style/my-style.wxml-->
+
+<view class="title">我是一个好孩子</view>

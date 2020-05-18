@@ -5,9 +5,15 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    count:0,
+    isShow:true
   },
-
+  handleClick(){
+    this.setData({
+      count:this.data.count+1
+    })
+    
+  },
   /**
    * 生命周期函数--监听页面加载
    */
@@ -26,7 +32,7 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-
+    
   },
 
   /**
@@ -62,5 +68,19 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  tabItem(e){
+    console.log(e);
+    
+  },
+  incrementCount(){
+    const mySelf=this.selectComponent('#my-self')
+    mySelf.increment(10)
+  },
+  handleShow(){
+    this.setData({
+      isShow:!this.data.isShow
+    })
+    
   }
 })

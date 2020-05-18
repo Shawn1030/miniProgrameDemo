@@ -1,2 +1,19 @@
 <!--pages/home/home.wxml-->
-<text class="title">涛哥最帅</text>
+
+<view class="title">涛哥最帅</view>
+<my-prop title='无聊啊'titleclass='red'></my-prop>
+<my-prop title='没意思' titleclass='yellow'></my-prop>
+<view>{{count}}</view>
+<my-button bind:increment='handleClick'></my-button> 
+
+<tab-bar bind:itemTittle='tabItem' ></tab-bar>
+<my-sel id='my-self'></my-sel>
+<button bind:tap='incrementCount'>增加</button>
+
+<block wx:if='{{isShow}}'>
+<my-slot>
+<view slot='slot2'>我是slot</view>
+<view slot='slot'>我是slot2</view>
+</my-slot>
+</block>
+<button bind:tap='handleShow'>切换</button>

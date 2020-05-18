@@ -1,0 +1,21 @@
+/* component/tab-bar/tab-bar.wxss */
+.tab-control {
+  height: 49px;
+  line-height: 49px;
+  display: flex;
+
+  text-align: center;
+
+}
+.tab-item {
+  flex:1
+}
+
+.active {
+  color: red;
+}
+.active .text {
+  padding: 10px;
+  border-bottom: 2px solid;
+  
+}

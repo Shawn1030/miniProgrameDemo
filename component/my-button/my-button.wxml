@@ -1,0 +1,2 @@
+<!--component/my-button/my-button.wxml-->
+<button size="mini"  bind:tap='buttonClick'>+1</button>

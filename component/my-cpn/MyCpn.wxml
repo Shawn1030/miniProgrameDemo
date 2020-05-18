@@ -1,0 +1,3 @@
+<!--component/MyCpn.wxml-->
+<button size="mini">按钮</button>
+<text>你好啊</text>
