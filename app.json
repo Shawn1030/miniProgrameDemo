@@ -1,5 +1,18 @@
 {
   "pages": [
-    "pages/home/home"
+    "pages/home/home",
+    "pages/detail/detail",
+    "pages/about/about"
+  ],
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "首页"
+    },{
+      "pagePath": "pages/about/about",
+      "text": "关于"
+    }
+    
   ]
+  }
 }

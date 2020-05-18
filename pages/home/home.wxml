@@ -1,2 +1,3 @@
 <!--pages/home/home.wxml-->
 <text class="title">涛哥最帅</text>
+<navigator url="/pages/about/about?name=shawn&age=18" open-type="reLaunch" >跳转到关于</navigator>

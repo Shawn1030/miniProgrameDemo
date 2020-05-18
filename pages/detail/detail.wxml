@@ -1,0 +1,3 @@
+<!--pages/detail/detail.wxml-->
+<text>详情页</text>
+<navigator open-type="navigateBack" extra-data='{{person}}'>返回</navigator>

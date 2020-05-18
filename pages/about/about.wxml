@@ -1,0 +1,4 @@
+<!--pages/about/about.wxml-->
+<text>关于</text>
+<navigator url="/pages/detail/detail">详情</navigator>
+<view>{{title}}</view>
