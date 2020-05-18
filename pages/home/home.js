@@ -1,4 +1,5 @@
 // pages/home/home.js
+import request from "../../service/network";
 Page({
 
   /**
@@ -12,7 +13,11 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    request({
+      url:'http://httpbin.org/get'
+    }).then(res=>{console.log(res);
+    }).catch(err=>{console.log(err);
+    })
   },
 
   /**
