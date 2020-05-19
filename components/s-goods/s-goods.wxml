@@ -1,0 +1,6 @@
+
+<view class="goods">
+  <block wx:for="{{goods}}" wx:key="title">
+    <s-goods-item class="item" good='{{item}}'/>
+  </block>  
+</view>

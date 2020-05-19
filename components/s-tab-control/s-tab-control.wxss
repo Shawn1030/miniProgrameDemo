@@ -1,0 +1,19 @@
+/* components/s-tab-control/s-tab-control.wxss */
+.tab-control {
+  margin-bottom: 16rpx;
+  display: flex;
+  text-align: center;
+  background-color: #fff;
+  z-index: 11;
+}
+.tab-item {
+  flex:1;
+  text-align: center;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 32rpx;
+}
+.tab-item .active {
+  padding:20rpx;
+  border-bottom: 3px solid #ff5777;
+}

@@ -1,2 +1,16 @@
 <!--pages/home/home.wxml-->
-<text class="title">涛哥最帅</text>
+<!-- 1.轮播图 -->
+<s-swiper list='{{banners}}'/>
+<!-- 2.推荐数据 -->
+<s-recommend recommends='{{recommends}}' bind:imageLoad='handleImageLoad'/>
+<!-- 3.本周流行 -->
+<s-popular />
+<!-- 4.tab-control -->
+
+<s-tab-control id='tab-control' class="{{isTabFixed? 'fixed':''}}" titles='{{titles}}' />
+<s-tab-control   titles='{{titles}}' bind:tabControlClick='handleTabControl' wx:if="{{isTabFixed}}" />
+
+<!-- 5.显示商品数据 -->
+<s-goods goods='{{goods[currentType].list}}'/>
+<!-- 6.回到顶部 -->
+<s-back-top wx:if="{{isShow}}"/>
